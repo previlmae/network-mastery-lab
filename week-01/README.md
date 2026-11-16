@@ -32,7 +32,6 @@
 - **Ports:** 443 is HTTPS on Notion's side; 61199 is a temporary port my Mac picked for this one conversation.
 - **Confirmed it was Notion:** the TLS Client Hello right after the handshake (packet 389) shows `SNI=www.notion.com`.
 
-### Bonus: troubleshooting a slow app
 
 Notion felt slow, so I used the same capture to check whether my network was the cause.
 
